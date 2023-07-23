@@ -339,11 +339,11 @@ function sortearJ1(){
             i = 0
         }
         else{
-            escudoRuletaG.src = equipos[i].escudo;
 
+            nombreRuletaG.textContent = equipos[i].nombre;
             i = i + 1;
         }
-	} ,100)
+	} ,40)
     setTimeout(function(){
         clearInterval(animacionSorteo);
         nombreRuletaG.textContent = equipos[nSorteo].nombre;
