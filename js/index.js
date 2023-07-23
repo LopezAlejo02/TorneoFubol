@@ -366,7 +366,6 @@ function sortearJ2(){
             i = 0
         }
         else{
-            escudoRuletaG.src = equipos[i].escudo;
             nombreRuletaG.textContent = equipos[i].nombre;
             i = i + 1;
         }
@@ -393,7 +392,6 @@ function sortearJ3(){
             i = 0
         }
         else{
-            escudoRuletaG.src = equipos[i].escudo;
             nombreRuletaG.textContent = equipos[i].nombre;
             i = i + 1;
         }
@@ -420,7 +418,6 @@ function sortearJ4(){
             i = 0
         }
         else{
-            escudoRuletaG.src = equipos[i].escudo;
             nombreRuletaG.textContent = equipos[i].nombre;
             i = i + 1;
         }
