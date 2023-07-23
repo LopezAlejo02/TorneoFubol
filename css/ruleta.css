@@ -1,0 +1,25 @@
+#ruleta {
+	display:flex;
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#ruleta > escudo > img{
+    min-height: 90px;
+    max-height: 90px;
+    
+}
+
+#ruleta > escudo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#ruleta > datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
